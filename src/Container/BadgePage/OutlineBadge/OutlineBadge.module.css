@@ -1,0 +1,28 @@
+.outline-badge{
+    display: inline-block;
+    border: 2px solid var(--neutral);
+    padding: 0.3rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    color: var(--neutral);
+}
+
+.outline-badge-success{
+    border: 2px solid var(--success-bright);
+    color: var(--success);
+}
+
+.outline-badge-failure{
+    border: 2px solid var(--failure-mild);
+    color: var(--failure);
+}
+
+.outline-badge-primary{
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.outline-badge-secondary{
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+}
