@@ -1,0 +1,15 @@
+.pageContainer{
+    box-sizing: border-box;
+}
+
+.font-light{
+    font-weight: 400;
+}
+
+.font-lighter{
+    font-weight: 300;
+}
+
+.font-lightest{
+    font-weight: 200;
+}
