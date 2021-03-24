@@ -1,7 +1,7 @@
 .textbox{
     padding: 0.5rem;
-    outline: 0px;
-    border:0px;
+    outline: 0;
+    border:0;
     letter-spacing: 1px;
     background-color: var(--neutral-mild);
 }
