@@ -17,23 +17,6 @@ import LandingPage from '../LandingPage/LandingPage';
 import Hamburger from './Dropdown/Hamburger/Hamburger'
 
 const MainPage=()=>{
-    // const componentList=[
-    //     "Avatar"
-    //     ,"Alert"
-    //     ,"Badge"
-    //     ,"Button"
-    //     ,"Card"
-    //     ,"Image"
-    //     ,"Input"
-    //     ,"Lists"
-    //     ,"Navigation"
-    //     ,"Modal"
-    //     ,"Rating"
-    //     ,"Slider"
-    //     ,"Simplified Grid"
-    //     ,"Text Utilities"
-    //     ,"Toast/Notify/Snackbar"
-    // ]
     const componentList=[
         "Getting Started"
         ,"Avatar"
