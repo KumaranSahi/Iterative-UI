@@ -1,0 +1,107 @@
+.mainContainer{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.navContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.navBar{
+    box-sizing: border-box;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    background-color: #333c3a;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navBar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navBar h1{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.logoImage{
+    margin-left: 1rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+.mainBody{
+    box-sizing: border-box;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 3fr;
+}
+
+.sideBar{
+    height: 100%;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom,#016c5d,#209892,#209892,#209892);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sideBarList{
+    width: 100%;
+    list-style: none;
+}
+
+.sideBarList li{
+    margin: 1rem;
+    box-sizing: border-box;
+}
+
+.sideBarList li a{
+    text-decoration: none;
+    color:white;
+    cursor: pointer;
+}
+
+.sideBarList li a:hover{
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.mainArea{
+    height: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+
+.hamburger{
+    display: none;
+    height: 4rem;
+    background-color: #333c3a;
+}
+
+@media (max-width:700px){
+    .hamburger{
+        display: flex;
+        align-items: center;
+    }
+    .sideBar{
+        display: none;
+    }
+    .mainBody{
+        display: block;
+    }
+}
